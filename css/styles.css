@@ -111,6 +111,10 @@ body {
   margin-bottom: 50px; 
 }
 
+.list {
+  list-style-type: none;
+}
+
 /* -----------------HEADER---------------- */
 
 .header {
@@ -176,6 +180,10 @@ body {
 .header-nav,
 .header-nav-list {
   display: flex;
+}
+
+.header-icon {
+  margin-right: 10px;
 }
 
 .mail {
@@ -283,11 +291,17 @@ body {
 
 .feature-item {
   min-width: 270px;
-  /* flex-basis: calc(100%/4-30px); */
-}
+ }
 
-/* .feature-item:not(:last-child) {
-margin-right: 30px; }*/
+.feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--bgr-secondary-color);
+  margin-bottom: 30px;
+}
 
 .feature-title {
   color: var(--title-text-color);
@@ -375,7 +389,68 @@ margin-bottom: 30px;
   text-align: center;
 }
 
+.net-icon {
+fill: currentColor;
+}
+
+.team-net {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.net-link {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background: var(--primary-bg-color);
+color: #afb1b8;
+
+}
+
+.net-link:hover,
+.net-link:focus{
+  background: var(--accept-color);
+  color: var(--primary-bg-color);
+}
+
 /* -----------------------CLIENT---------------------- */
+
+.client-icon {
+  fill: currentColor;
+}
+
+.client-list {
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+
+.client-link {
+display:flex;
+width: 170px;
+height: 92px;
+border: 1px solid #afb1b8;
+border-radius: 4px;
+align-items: center;
+justify-content: center;
+background-color: var(--primary-bg-color)
+;
+color: #afb1b8;
+}
+
+.client-link:hover,
+.client-link:focus {
+  color: var(--accept-color);
+  border-color: var(--accept-color);
+}
 
 
 
@@ -440,6 +515,16 @@ margin-bottom: 30px;
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accept-color);
+}
+
+.jion-title {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-bg-color);
 }
 
 /* Портфолио */
