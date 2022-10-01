@@ -17,28 +17,41 @@
     <!-- хедер -->
 
     <header class="header">
-     <div class="container">
-      <section class="top-menu">
-        <nav class="header-nav">
-           <a href="./index.html" class="logo">Web<span class="logo-text">Studio</span></a>
-          <ul class="header-nav-list">
-            <li class="header-nav-item">
-              <a href="./index.html" class="header-nav-link">Студія</a></li>
-            <li class="header-nav-item">
-              <a href="./portfolio.html" class="header-nav-link current">Портфоліо</a></li>
-            <li class="header-nav-item">
-              <a href="./index.html" class="header-nav-link">Контакти</a></li>
+      <div class="container">
+        <section class="top-menu">
+          <nav class="header-nav">
+            <a href="./index.html" class="logo">Web<span class="logo-text">Studio</span></a>
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <a href="./index.html" class="header-nav-link">Студія</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="./portfolio.html" class="header-nav-link current">Портфоліо</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="./index.html" class="header-nav-link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="header-contact">
+            <li class="mail">
+              <a href="mailto:minfo@devstudio.com" class="mail-link">
+                <svg class="header-icon" width="16" height="12">
+                  <use href="./images/symbol-defs.svg#icon-envelope-hover"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="tel-link">
+                <svg class="header-icon" width="10" height="16">
+                  <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
           </ul>
-        </nav>
-  
-        <ul class="header-contact">
-          <li>
-            <a href="mailto:minfo@devstudio.com" class="mail-link">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="tel-link">+38 096 111 11 11</a>
-          </li>
-        </ul>
         </section>
       </div>
     </header>
@@ -140,30 +153,69 @@
   <!-- футер -->
  
     <footer class="footer">
-     <div class="container">
-       <a href="./index.html" class="logo">Web<span class="logo-text-footer">Studio</span></a>
-        <address class="footer-adress">
-          <ul class="footer-adress-list">
-            <li class="footer-adress-item">
-              <a
-                href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"
-                class="footer-map" 
-                target="_blank"
-                rel="noreferrer noopener">
-                м. Київ, пр-т Лесі Українки, 26
-              </a>
-            </li>
-  
-            <li class="footer-adress-item">
-              <a href="mailto:minfo@devstudio.com" class="footer-mail">info@devstudio.com</a>
-            </li>
-  
-            <li class="footer-adress-item">
-              <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </address>
-     </div>
+      <div class="container jion">
+        <div class="adress-block">
+          <a href="./index.html" class="footer-logo"
+            >Web<span class="logo-text-footer">Studio</span></a
+          >
+          <address class="footer-adress">
+            <ul class="footer-adress-list">
+              <li class="footer-adress-item">
+                <a
+                  href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17"
+                  class="footer-map"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  м. Київ, пр-т Лесі Українки, 26
+                </a>
+              </li>
+
+              <li class="footer-mail">
+                <a href="mailto:minfo@devstudio.com" class="footer-mail">info@devstudio.com</a>
+              </li>
+
+              <li>
+                <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="join-block">
+          <h2 class="jion-title">приєднуйтесь</h2>
+          <ul class="list team-net">
+                  <li class="footer-net-item">
+                    <a href="" class="footer-net-link">
+                      <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer-net-item">
+                    <a href="" class="footer-net-link">
+                      <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer-net-item">
+                    <a href="" class="footer-net-link">
+                      <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer-net-item">
+                    <a href="" class="footer-net-link">
+                      <svg class="footer-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
